@@ -1,0 +1,30 @@
+{
+  "name": "language-typescript-html",
+  "author": {
+    "name": "Gregor Woiwode",
+    "email": "gregor.woiwode@gmail.com",
+    "url": "https://github.com/gregonnet"
+  },
+  "version": "0.0.1",
+  "description": "Package adding HTML Syntax highlighting to TypeScript Template Strings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregOnNet/atom-language-typescript-html.git"
+  },
+  "keywords": [
+    "angular2",
+    "highlighting",
+    "syntax",
+    "html",
+    "typescript",
+    "productivity"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregOnNet/atom-language-typescript-html/issues"
+  },
+  "homepage": "https://github.com/GregOnNet/atom-language-typescript-html#readme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
