@@ -1,0 +1,21 @@
+scopeName: 'source.ts'
+name: 'TypeScript'
+fileTypes: [
+  'ts',
+  'js'
+]
+repository:
+  'template-string-html':
+    name: 'meta.template.html.ts'
+    begin: '(`)\n*?\s*?<[a-zA-Z0-9]*>'
+    beginCaptures:
+      '1':
+        name: 'string.template.ts'
+    end: '(`)'
+    endCaptures:
+      '1':
+        name: 'string.template.ts'
+    contentName: 'text.html'
+    patterns: [
+      include: 'text.html.basic'
+    ]
